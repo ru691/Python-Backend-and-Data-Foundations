@@ -1,0 +1,31 @@
+Hi Hello Good Bye
+
+cd Desktop = open desktop
+touch chapter1.txt = create file
+git status = what has not been committed/modified
+git add = add to staging area
+git commit = commit the file
+git diff = what has been changed from the previous commit
+git log = the committed logs
+git checkout <file> = rollback to previous version
+git remote add origin <url> = tell the computer where my file lives
+git push -u <file> main = upload the files
+
+touch .gitignore = do not upload files inside this directory
+git rm --cached -r . = remove everything from the staging area
+
+inside .gitignore if you put *.txt means ignore all files that are txt files
+
+cloning :
+git clone <url> = make a copy, same like google docs/sheet make our own copy
+
+branching :
+git branch <branch name> = to create branch to test things out without disrupting main
+git checkout <branch name> = to go into the branch
+git branch = to check which branch we are at
+git merge <branch name> at the main branch = merge it to the main branch
+
+forking and pull request :
+forking = creates a copy of the repo on your github acc/ cloning = download a copy of a repo into our local computer
+pull request = make a suggestion request to the main user to let them review our edits and add to their main branch
+
